@@ -9,7 +9,7 @@ class DashboardScreenView extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Assignment 4"),
         centerTitle: true,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 36, 208, 21),
         foregroundColor: Colors.white,
       ),
       body: Container(
@@ -17,7 +17,7 @@ class DashboardScreenView extends StatelessWidget {
         decoration: const BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              Color(0xff6A11CB),
+              Color.fromARGB(255, 148, 128, 27),
               Color(0xff2575FC),
             ],
             begin: Alignment.topLeft,
